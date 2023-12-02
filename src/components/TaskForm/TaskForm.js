@@ -7,7 +7,7 @@ import './TaskForm.css'
 import InProgress from '../StatusComponent/InProgress';
 import ToDo from '../StatusComponent/ToDo';
 import Done from '../StatusComponent/Done';
-import { v4 as uuidv4 } from 'uuid'; // Import UUID library
+import { v4 as uuidv4 } from 'uuid';
 
 const TaskForm = () => {
   const dispatch = useDispatch();
@@ -17,7 +17,7 @@ const TaskForm = () => {
   const [taskName, setTaskName] = useState('');
   const [priority, setPriority] = useState('');
   const [deadline, setDeadline] = useState('');
-  const [stage, setStage] = useState('0'); // Default stage set to Backlog
+  const [stage, setStage] = useState('0');
 
   const handleSubmit = (e) => {
     e.preventDefault();

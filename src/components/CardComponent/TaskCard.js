@@ -18,7 +18,7 @@ const TaskCard = ({ task }) => {
   };
 
   const handleDelete = () => {
-    dispatch(deleteTask(task.id)); // Dispatch deleteTask action with task ID
+    dispatch(deleteTask(task.id));
   };
 
   const handleInputChange = (e) => {

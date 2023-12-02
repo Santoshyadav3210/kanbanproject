@@ -79,7 +79,6 @@ const navigate = useNavigate();
             onChange={handleInputChange}
             placeholder="Email"
             required
-            // style={{marginLeft: "50px"}}
           />
         </label>
         <label className="label">
@@ -90,7 +89,6 @@ const navigate = useNavigate();
             value={contactNumber}
             onChange={handleInputChange}
             placeholder="Contact Number"
-            // style={{marginLeft: "50px"}}
           />
         </label>
         <label className="label">
@@ -102,7 +100,6 @@ const navigate = useNavigate();
             onChange={handleInputChange}
             placeholder="Password"
             required
-            // style={{marginLeft: "50px"}}
           />
         </label>
         <label className="label">
