@@ -1,0 +1,23 @@
+.form-container{
+    display: flex;
+    width: 100%;
+    column-gap: 10px;
+}
+
+.input-div{
+    width: 20%;
+}
+.mainContainer{
+    background-color: lightgray;
+    padding: 40px 0px;
+}
+
+.progressContainer{
+    display: flex;
+    justify-content: space-between;
+}
+.backLogContainer{
+    width: 25%;
+    border:1px solid red;
+    height: auto;
+}

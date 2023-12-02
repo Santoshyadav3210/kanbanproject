@@ -1,0 +1,24 @@
+.btn-conatiner{
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.login-btn{
+    /* width: 20%; */
+    height: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.register-btn{
+    /* width: 20%; */
+    height: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+}

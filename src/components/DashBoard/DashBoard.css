@@ -1,0 +1,12 @@
+.summary-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper{
+    width: 30%;
+    border:1px solid red;
+    /* height: 300px; */
+    padding: 20px;
+
+}
